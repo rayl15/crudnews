@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400italic,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400italic,700,400,300);
+
+body{margin:0;font-family:'Lato';font-size:100%;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+*{outline:0;}
+h1{margin:20px 0 0 0;padding:0;font-family:'Roboto Condensed';border-bottom:1px solid #ddd;color:#67b6ff}
+
+#topnav{width:100%;background:#222d32;height:80px;color:#9d998f;}
+#logo{font-size:3em;font-weight:700;color:#FF9900;font-family:'Roboto Condensed';margin-left:20px;padding-top:10px;display:inline-block;width:200px;}
+#topnav_links{display:inline-block;vertical-align:top;color:#fff;width:150px;float:right;margin-top:25px;font-size:0.9em;}
+
+#body_container{width:100%;}
+
+#left_pane{border-right:1px solid #ddd;width:200px;background:#f1f3f5;font-size:0.9em;display:inline-block;height:85vh;}
+#left_pane ul{list-style:none;margin:0;padding:0;}
+#left_pane ul li{padding:10px;border-bottom:1px solid #ddd;}
+#left_pane ul li a{color:#3c8dbc;}
+#left_pane ul li a:hover{color:#333;}
+
+#pagination{font-size:0.8em;margin-top:10px; float:right;}
+#pagination ul{list-style:none;margin:0;padding:0;float:left;}
+#pagination ul li{padding:8px;float:left;background:#f1f1f1;border:1px solid #ddd;display:block;margin-left:10px;}
+#pagination ul li a{color:#3c8dbc;}
+#pagination ul li a:hover{color:#333;}
+
+#right_pane{display:inline-block;vertical-align:top;width:80%;margin-left:30px;}
+#search_container{margin-top:10px;width:425px;float:right;}
+#footer{background:#222d32;color:#fff;font-size:0.7em;text-align:center;padding:5px 0 5px 0;}
+
+.searchtxtbox{padding:5px;border-radius:5px;border:1px solid #ddd;font-family:'Lato';width:200px;}
+.searchddmenu{padding:5px;border-radius:5px;border:1px solid #ddd;font-family:'Lato';width:200px;}
+.txtbox{padding:5px;border-radius:5px;border:1px solid #ddd;font-family:'Lato';width:200px;}
+.ddmenu{padding:5px;border-radius:5px;border:1px solid #ddd;font-family:'Lato';width:210px;}
+.txtarea{padding:5px;border-radius:5px;border:1px solid #ddd;font-family:'Lato';width:200px;}
+
+.datatable{border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.trhead{background:#fff;font-weight:bold;text-transform:uppercase;}
+.trwhite{background:#fff;}
+.trgrey{background:#f7f7f7;}
+.tdhead{border-bottom:1px solid #ddd;}
+.btn-blue{border:1px solid #67b6ff;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;background:#67b6ff; color:#fff;font-family:'Lato';padding:10px; text-transform:uppercase;}
+
+
+.extable{
+	width:100%;
+	float:left;
+}

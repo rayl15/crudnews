@@ -119,9 +119,8 @@ MultipartRequest m=new MultipartRequest(request,dirname,5*1024*1024 );*/
             {
                 out.print("<br>");
             out.print(list.get(i));
-            
             }
-            //list.clear();
+            list.clear();
             //response.sendRedirect("manage_property.jsp");
         } else {
             response.sendRedirect("add_property.jsp");

@@ -127,7 +127,7 @@
 
                                         </tr>
 
-                                    <form name="frmChange" action="addprop" method="post" enctype="multipart/form-data" >
+                                    <form name="frmChange" action="addprop" method="post" enctype="multipart/form-data">
 
                                         <tbody>
 
